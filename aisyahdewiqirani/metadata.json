@@ -4,7 +4,7 @@ Content-Type: application/json
 Vary: Accept
 
 {
-    "image": "https://github.com/agussaifuddin/nft/aisyahdewiqirani/aisyah-dewi-qirani.jpg",
+    "image": "https://raw.githubusercontent.com/agussaifuddin/nft/main/aisyahdewiqirani/aisyah-dewi-qirani.jpg",
     "name": "Aisyah Dewi Qirani",
     "description": "the face of a 1-year-old Muslim girl toddler.\n\nAisyah Dewi Qirani (Aisyah).\n\nIndonesia.",
     "external_link": null,
