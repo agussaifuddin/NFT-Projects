@@ -1,0 +1,54 @@
+HTTP 200 OK
+Allow: GET, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "image": "https://github.com/agussaifuddin/nft/aisyahdewiqirani/aisyah-dewi-qirani.jpg",
+    "name": "Aisyah Dewi Qirani",
+    "description": "the face of a 1-year-old Muslim girl toddler.\n\nAisyah Dewi Qirani (Aisyah).\n\nIndonesia.",
+    "external_link": null,
+    "animation_url": null,
+    "traits": [
+        {
+            "trait_type": "Age",
+            "value": "1 year old",
+            "display_type": null,
+            "max_value": null,
+            "trait_count": 0,
+            "order": null
+        },
+        {
+            "trait_type": "Gender",
+            "value": "female",
+            "display_type": null,
+            "max_value": null,
+            "trait_count": 0,
+            "order": null
+        },
+        {
+            "trait_type": "Location",
+            "value": "indonesia",
+            "display_type": null,
+            "max_value": null,
+            "trait_count": 0,
+            "order": null
+        },
+        {
+            "trait_type": "Speed",
+            "value": "3",
+            "display_type": null,
+            "max_value": 5.0,
+            "trait_count": 0,
+            "order": null
+        },
+        {
+            "trait_type": "Speed",
+            "value": "3",
+            "display_type": "number",
+            "max_value": 5.0,
+            "trait_count": 0,
+            "order": null
+        }
+    ]
+}
