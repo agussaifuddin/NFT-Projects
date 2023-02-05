@@ -1736,7 +1736,6 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
 pragma solidity ^0.8.0;
 
 
-
 /**
  * @title ERC721 Burnable Token
  * @dev ERC721 Token that can be burned (destroyed).
@@ -1826,7 +1825,6 @@ abstract contract ERC721URIStorage is ERC721 {
 // OpenZeppelin Contracts (last updated v4.8.0) (token/ERC721/extensions/ERC721Enumerable.sol)
 
 pragma solidity ^0.8.0;
-
 
 
 /**
@@ -1987,7 +1985,7 @@ abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
 pragma solidity ^0.8.9;
 
 
-contract TokoReceh.com is ERC721, ERC721Enumerable, ERC721URIStorage, Pausable, Ownable, ERC721Burnable {
+contract TokoReceh is ERC721, ERC721Enumerable, ERC721URIStorage, Pausable, Ownable, ERC721Burnable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
