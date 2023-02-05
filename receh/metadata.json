@@ -1,0 +1,41 @@
+{
+    "image": "https://raw.githubusercontent.com/agussaifuddin/nft/main/collection/indonesia-flag.gif?w=500&auto=format",
+    "name": "TokoReceh.com",
+    "description": "simple online store website project to sell any product. built using wordpress cms and using premium themes to produce a nice UI..",
+    "external_link": "https://tokoreceh.com",
+    "animation_url": null,
+    "traits": [
+        {
+            "trait_type": "Twitter",
+            "value": "@tokorecehcom",
+            "display_type": null,
+            "max_value": null,
+            "trait_count": 0,
+            "order": null
+        },
+        {
+            "trait_type": "Instagram",
+            "value": "@tokorecehcom",
+            "display_type": null,
+            "max_value": null,
+            "trait_count": 0,
+            "order": null
+        },
+        {
+            "trait_type": "Shopee",
+            "value": "@tokorecehonline",
+            "display_type": null,
+            "max_value": null,
+            "trait_count": 0,
+            "order": null
+        },
+        {
+            "trait_type": "Speed",
+            "value": "3",
+            "display_type": "number",
+            "max_value": 5.0,
+            "trait_count": 0,
+            "order": null
+        }
+    ]
+}
