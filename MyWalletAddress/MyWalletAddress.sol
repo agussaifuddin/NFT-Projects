@@ -2,7 +2,6 @@
 pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
-import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
 
 contract MyWalletAddress is ERC1155 {
     uint256 public constant BTC = 0;
@@ -25,14 +24,5 @@ contract MyWalletAddress is ERC1155 {
         _mint(msg.sender, SOL, 10**600, "");
         _mint(msg.sender, TRX, 10**700, "");
         _mint(msg.sender, DOGE, 10**800, "");
-    }
-
-    // The following functions are overrides required by Solidity.
-
-    function _beforeTokenTransfer(address operator, address from, address to, uint256[] memory ids, uint256[] memory amounts, bytes memory data)
-        internal
-        override(ERC1155, ERC1155Supply)
-    {
-        super._beforeTokenTransfer(operator, from, to, ids, amounts, data);
     }
 }
