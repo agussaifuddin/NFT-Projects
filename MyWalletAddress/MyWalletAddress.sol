@@ -15,7 +15,7 @@ contract MyWalletAddress is ERC1155 {
     uint256 public constant TRX = 7;
     uint256 public constant DOGE = 8;
 
-   constructor() public ERC1155("https://agussaifuddin.github.io/nft/mywalletaddress/metadata/{id}.json") {
+    constructor() public ERC1155("https://agussaifuddin.github.io/nft/mywalletaddress/metadata/{id}.json") {
         _mint(msg.sender, BTC, 1, "");
         _mint(msg.sender, ETH, 10**100, "");
         _mint(msg.sender, BNB, 10**200, "");
