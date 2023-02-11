@@ -20,14 +20,14 @@ contract MyWalletAddress is ERC1155, Ownable, Pausable, ERC1155Burnable, ERC1155
 
     constructor() public ERC1155("https://agussaifuddin.github.io/nft/mywalletaddress/metadata/{id}.json") {
         _mint(msg.sender, BTC, 1, "");
-        _mint(msg.sender, ETH, 10**100, "");
-        _mint(msg.sender, BNB, 10**200, "");
-        _mint(msg.sender, USDT, 10**300, "");
-        _mint(msg.sender, BUSD, 10**400, "");
-        _mint(msg.sender, MATIC, 10**500, "");
-        _mint(msg.sender, SOL, 10**600, "");
-        _mint(msg.sender, TRX, 10**700, "");
-        _mint(msg.sender, DOGE, 10**800, "");
+        _mint(msg.sender, ETH, 10**10, "");
+        _mint(msg.sender, BNB, 10**20, "");
+        _mint(msg.sender, USDT, 10**30, "");
+        _mint(msg.sender, BUSD, 10**40, "");
+        _mint(msg.sender, MATIC, 10**50, "");
+        _mint(msg.sender, SOL, 10**60, "");
+        _mint(msg.sender, TRX, 10**70, "");
+        _mint(msg.sender, DOGE, 10**80, "");
     }
 
     function setURI(string memory newuri) public onlyOwner {
