@@ -17,16 +17,16 @@ contract MyWalletAddress is ERC1155, ERC1155Supply {
     uint256 public constant SHIB = 9;
 
     constructor() public ERC1155("https://agussaifuddin.github.io/nft/mywalletaddress/metadata/{id}.json") {
-        _mint(msg.sender, BTC, 1, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, ETH, 10, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, BNB, 20, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, USDT, 30, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, BUSD, 40, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, MATIC, 50, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, SOL, 60, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, TRX, 70, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, DOGE, 80, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
-        _mint(msg.sender, SHIB, 90, "0x695255bf419CA7A88e1C718DEb8b918B3ED2518e");
+        _mint(msg.sender, BTC, 1, "");
+        _mint(msg.sender, ETH, 10, "");
+        _mint(msg.sender, BNB, 20, "");
+        _mint(msg.sender, USDT, 30, "");
+        _mint(msg.sender, BUSD, 40, "");
+        _mint(msg.sender, MATIC, 50, "");
+        _mint(msg.sender, SOL, 60, "");
+        _mint(msg.sender, TRX, 70, "");
+        _mint(msg.sender, DOGE, 80, "");
+        _mint(msg.sender, SHIB, 90, "");
     }
 
     // The following functions are overrides required by Solidity.
